@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="NASA's Public Github Organization">
-        <link rel="stylesheet" href="/index.css"/>
+        <link rel="stylesheet" href="index.css"/>
         <link
             rel="preload"
             as="style"
@@ -29,6 +29,7 @@
             />
         </noscript>
         <title>NASA's Public Github Organization</title>
+        <link rel="shortcut icon" href="assets/NASA_logo.svg" type="image/x-icon"> 
     </head>
     <body>
         <header>
@@ -40,13 +41,15 @@
                 </div>
             </div>
             <div>
-                <a href="https://nasa.github.io/">Purpose</a>
-                <a href="#purpose">Instructions</a>
+                <a href="#purpose">Purpose</a>
+                <a href="#instructions">Instructions</a>
                 <a href="#related">Related Sites</a>
                 <a href="#questions">Questions</a>
             </div>
         </header>
-        <div id="separator"></div>
+        
+
+        <div class="container">
         <h2 id="purpose">Purpose</h2>
         <p>
             This GitHub organization is intended to publicly host NASA code that has
@@ -69,16 +72,17 @@
             GitHub Org, you will need to
             submit the <strong>AGCY NASA Github Collaborator Form</strong> NAMS
             request
-            (<a href="https://nams.nasa.gov">https://nams.nasa.gov</a>).
+            (<a href="https://nams.nasa.gov">https://nams.nasa.gov</a>). 
+            This requires you to be behind the NASA firewall.
             If you were a member several years ago and recently found you are no
-            longer a meember, please see this 
+            longer a member, please see this 
             <a href="https://github.com/nasa/nasa.github.io/issues/2">note</a>.
         </p>
         <p>
             Only members have rights to directly edit code in a github.com/nasa
             repository. Everyone else will need
-            to submit a pull request. <strong style="color:#ee0000">We highly encourage
-pull requests from the public!!!</strong>.
+            to submit a pull request. <strong class="highlight-red">We highly encourage
+pull requests from the public!!!</strong>
             However, please note that not all repositories are actively
             maintained.</p>
         <p>Members of the public can not attain and do not need collaborator
@@ -200,7 +204,7 @@ pull requests from the public!!!</strong>.
             approved
             NASA user. If you had normal repository owner right, you could add
             any
-            github user. </p>
+            github user.</p>
 
 
         <h3 id="outsidecollaborators">Outside Collaborators</h3>
@@ -215,8 +219,8 @@ pull requests from the public!!!</strong>.
 
         <p>Please reach out to us if you have any questions.</p>
 
-        <h3 id="related">Common Request & Process Combinations</h3>
-        <p><b>Need:</b> If you need to be added to the NASA org on github.com/</p>
+        <h3 id="common">Common Request & Process Combinations</h3>
+        <p><b>Need:</b> If you need to be added to the NASA org on github.com</p>
         <p><b>Process:</b> Create a personal github account and then request to
             be added as a Github Collaborator via a new or modified <a
                 href="https://idmax.nasa.gov/nams/asset/227756">NAMs request</a>.
@@ -244,7 +248,7 @@ pull requests from the public!!!</strong>.
             request, or email the Github Owners in that order of preference.</p>
         <h2 style="margin-top:2em;">Related Sites</h2>
 
-        <h3>Organizationally Related Sites</h3>
+        <h3 id="related">Organizationally Related Sites</h3>
         <b>In addition to github.com/nasa, NASA OCIO's Transformation and Data Division Open-Innovation staff also run:</b>
         <ul>
             
@@ -278,15 +282,15 @@ pull requests from the public!!!</strong>.
             These sites host metadata descriptions
             for nearly all of the officially open-sourced code.</p>
         <h4><a href="https://code.nasa.gov">Code.nasa.gov</a></h4>
-        <p>Code.nasa.gov feeds into https://code.gov , which holds open source
+        <p>Code.nasa.gov feeds into https://code.gov, which holds open source
             code from across all federal government agencies. It is mandated by
             Congress and only holds standardized metadata about the code.</p>
         <p>Code.nasa.gov only shows open-source software. For government-source
             and patented software, see software.nasa.gov</p>
-        <p style="color:#ee0000">Please make sure any repos added to github.com/nasa
-            are also tracked in code.nasa.gov! </p>
+        <p class="highlight-red"><strong>Please make sure any repos added to github.com/nasa
+            are also tracked in code.nasa.gov!</strong></p>
         <p>Code.nasa.gov uses both human and A.I. generated tags to help users find NASA open source that is useful for their goals.</p>
-        <img src="assets/code_demo.png" alt="Screenshot of NASA's project OPEN MCT" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+        <img class="content_image" src="assets/code_demo.png" alt="Screenshot of NASA's project OPEN MCT" style="display: block;margin-left: auto;margin-right: auto;">
         <h4><a href="https://software.nasa.gov">Software.nasa.gov</a></h4>
         <p>Software.nasa.gov is part of the larger <a
                 href="https://technology.nasa.gov/">https://technology.nasa.gov/</a>
@@ -309,11 +313,11 @@ pull requests from the public!!!</strong>.
             as downloadable zip files as well as software that must be requested
             individually as they are only open to US persons or are tied to a
             patent.</p>
-        <a href="https://software.nasa.gov"><img src="assets/software.png" alt="Screenshot of NASA's software categories"style="display: block;margin-left: auto;margin-right: auto;width: 50%;"></img></a>
+        <a href="https://software.nasa.gov"><img class="content_image" src="assets/software.png" alt="Screenshot of NASA's software categories"style="display: block;margin-left: auto;margin-right: auto;"></img></a>
         
         <h1 id="questions" style="margin-top:2em;">Questions?</h1>
         <p>In addition to the emails listed above, you may leave an <a
-                href="https://github.com/nasa/nasa.github.io/issues">issue</a>
+                href="https://github.com/nasa/instructions/issues">issue</a>
             on
             this repository. We will use those questions &amp; answers to
             eventually
@@ -342,5 +346,14 @@ pull requests from the public!!!</strong>.
                 </ul>
               </div>
         </div>
+</div>
+    <script>
+
+        if(window.location.href == "https://nasa.github.io/instructions" || window.location.href == "https://nasa.github.io/instructions"){
+            window.location.replace("https://github.com/nasa/instructions/blob/master/docs/INSTRUCTIONS.md");
+        }
+
+        </script>      
+
     </body>
 </html>
