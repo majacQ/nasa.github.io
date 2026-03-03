@@ -91,7 +91,7 @@ Only on a rare case-by-case basis we will allow non-NASA users to be added to th
 Please reach out to us if you have any questions.
 
 ### Use of Large File Storage and GitHub Actions
-<a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and <a href="https://github.com/features/actions">GitHub Actions</a> are two services for GitHub repositories that can be enabled and may result in extra costs that the NASA org on github.com has to pay. Currently, the policy is to enable these features on a per repository basis as requested for limited use. This level of use over a small number of repositories hasn't resulted in charges above our very limited budget. If you would like to use either of these services extensively, please each out to the contact email. 
+NASA is on a free-tier Github organization account that has major limitations for the Git LFS service (maximum of 10GB for both monthly storage and monthly bandwidth which resets the 1st of each month), so we do not recommend using Git LFS tracking large files in your repositories. Please ensure the removal of all large files from your repository and commit history. You will need to plan to host your large files on your team’s end through another available service.
 
 #### Billing Plan & Impact on Features
 A very small number of GitHub features depend on what billing plan your organization uses. This varies over time, so please refer to GitHub documentation for this information.
