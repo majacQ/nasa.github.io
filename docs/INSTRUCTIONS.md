@@ -34,16 +34,15 @@ To ensure mandatory policies are followed, NASA org members are not given the fu
 #### Org Owners
 We currently have six active owners in the org:
 
-Drake Gordon : github username = drakegordon1
+Drake Gordon : github username = drakegordon1 (until 3/22/26)
 
 Darith Yim : github username = dsyim
-
-Jeffery Rubio : github username = jjrubio2
 
 Daniel Rendon : github username = dcrendon
 
 Tessa Brazda : github username = tmbrazda
 
+Andre Gueret: github username = AndreGueretNASA
 
 <!--
 Miles Crabbe : github username = MilesCrabbe
