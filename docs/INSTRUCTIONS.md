@@ -6,7 +6,8 @@
 - [Purpose](#purpose)
 - [Instructions for Who Can Be a Member](#instructions-for-who-can-be-a-member)
 - [Instructions for Once You Are a Member](#instructions-for-once-you-are-a-member)
-- [Use of Large File Storage and GitHub Actions](#use-of-large-file-storage-and-github-actions)
+- [Use of Large File Storage](#use-of-large-file-storage)
+- [Use of GitHub Actions](#use-of-github-actions)
 - [GitHubPages and Websites](#githubpages-and-websites)
 - [Enabling Discussions and Other Beta Features](#enabling-discussions-and-other-beta-features)
 - [Most Common Requests](#most-common-requests)
@@ -34,7 +35,9 @@ To ensure mandatory policies are followed, NASA org members are not given the fu
 #### Org Owners
 We currently have six active owners in the org:
 
-Drake Gordon : github username = drakegordon1 (until 3/22/26)
+Jeremy Yagle: github username = jyagle
+
+Nidhi Wahi: github username = NWahi09
 
 Darith Yim : github username = dsyim
 
@@ -89,8 +92,11 @@ Only on a rare case-by-case basis we will allow non-NASA users to be added to th
 
 Please reach out to us if you have any questions.
 
-### Use of Large File Storage and GitHub Actions
+### Use of Large File Storage
 NASA is on a free-tier Github organization account that has major limitations for the Git LFS service (maximum of 10GB for both monthly storage and monthly bandwidth which resets the 1st of each month), so we do not recommend using Git LFS tracking large files in your repositories. Please ensure the removal of all large files from your repository and commit history. You will need to plan to host your large files on your team’s end through another available service.
+
+### Use of GitHub Actions
+NASA is on a free-tier Github organization account that has limitations for the Github Actions (2,000 CI/CD minutes/month and FREE for public repositories). You can use execution minutes with GitHub Actions to automate your software development workflows (write tasks and combine them to build, test, and deploy any code project on GitHub).
 
 #### Billing Plan & Impact on Features
 A very small number of GitHub features depend on what billing plan your organization uses. This varies over time, so please refer to GitHub documentation for this information.
